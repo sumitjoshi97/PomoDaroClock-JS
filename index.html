@@ -1,0 +1,39 @@
+<html>
+
+<head>
+	<title>POMODARO clock</title>
+	<link href="styles/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="styles/style.css" rel="stylesheet">
+	<script src="scripts/jquery.min.js"></script>
+	<script src="scripts/script.js"></script>
+</head>
+
+<body>
+	<h2>A Pomodaro Clock</h2>
+	<div class="container" id="pomodaro">
+		<div id="break" class="container-well">
+			<p>Break Time</p>
+			<button class="btn" value="-"><b>-</b></button>
+			<div id="breakTime">
+				<p>10</p>
+			</div>
+			<button class="btn" value="+"><b>+</b></button>
+		</div>
+		<div id="session">
+			<p>Session Time</p>
+			<button class="btn" value="-"><b>-</b></button>
+			<div id="sessionTime">
+				<p>25</p>
+			</div>
+			<button class="btn" value="+"><b>+</b></button>
+		</div>
+		<br>
+		<div id="timer">
+			<div id="val">25</div>
+			<br>
+			<button id="start" class="btn btn-primary">start</button>
+		</div>
+	</div>
+</body>
+
+</html>
